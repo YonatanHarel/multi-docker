@@ -5,7 +5,7 @@ services:
 before_install:
   - docker build -t yonatanharel/multi-docker -f ./client/Dockerfile.dev ./client
 
-scripts:
+script:
   - docker run yonatanharel/multi-docker npm test -- --coverage
 
 after_success:
