@@ -20,3 +20,4 @@ after_success:
  - docker push yonatanharel/multi-nginx
  - docker push yonatanharel/multi-server
  - docker push yonatanharel/multi-worker
+ 
