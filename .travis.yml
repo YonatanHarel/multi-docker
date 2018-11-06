@@ -10,7 +10,7 @@ script:
 
 after_success:
   - docker build -t yonatanharel/multi-client ./client
-  - docker build -t yonatanharel/multi-nginx ./ngninx
+  - docker build -t yonatanharel/multi-nginx ./nginx
   - docker build -t yonatanharel/multi-server ./server
   - docker build -t yonatanharel/multi-worker ./worker
 
